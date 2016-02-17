@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <block type="core/template" name="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/track.phtml"/>
+        </reference>
+    </default>
+    <catalogsearch_result_index>
+        <reference name="head">
+            <block type="core/template" name="stuntcoders.fb.search.pixel" after="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/search.phtml"/>
+        </reference>
+    </catalogsearch_result_index>
+    <checkout_onepage_success>
+        <reference name="head">
+            <block type="core/template" name="stuntcoders.fb.purchase.pixel" after="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/purchase.phtml"/>
+        </reference>
+    </checkout_onepage_success>
+</layout>

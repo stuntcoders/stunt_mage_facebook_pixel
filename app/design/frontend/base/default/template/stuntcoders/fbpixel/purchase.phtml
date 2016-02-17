@@ -1,0 +1,11 @@
+<?php if (Mage::helper('stuntcoders_fbpixel')->isEnabled()): ?>
+    <?php $order = Mage::getModel('sales/order')->load(Mage::getSingleton('checkout/session')->getLastOrderId()); ?>
+    <!-- Facebook Pixel Purchase Code -->
+    <script>
+        fbq('track', 'Purchase', {
+            value: '<?php echo $order->getGrandTotal(); ?>',
+            currency: '<?php echo $order->getOrderCurrencyCode(); ?>'
+        });
+    </script>
+    <!-- End Facebook Purchase Pixel Code -->
+<?php endif; ?>

@@ -5,3 +5,4 @@ All notable changes to this project will be documented in this file.
 ### ADDED:
 - Init module
 - Modman file
+- Readme file

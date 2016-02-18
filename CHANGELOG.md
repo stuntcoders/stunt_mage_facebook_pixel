@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## 0.1.0 - 2016-02-18
 ### ADDED:
 - Init module
 - Modman file

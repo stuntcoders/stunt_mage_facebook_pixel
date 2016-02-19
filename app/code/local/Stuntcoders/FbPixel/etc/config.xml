@@ -8,12 +8,12 @@
     <global>
         <blocks>
             <stuntcoders_fbpixel>
-                <class>stuntcoders_fbpixel_Block</class>
+                <class>Stuntcoders_FbPixel_Block</class>
             </stuntcoders_fbpixel>
         </blocks>
         <helpers>
             <stuntcoders_fbpixel>
-                <class>stuntcoders_fbpixel_Helper</class>
+                <class>Stuntcoders_FbPixel_Helper</class>
             </stuntcoders_fbpixel>
         </helpers>
     </global>

@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 - 2016-03-15
+### CHANGED:
+- Update readme file
+
 ## 0.1.1 - 2016-02-19
 ### CHANGED:
 - Fix typos

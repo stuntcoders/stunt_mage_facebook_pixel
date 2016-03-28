@@ -15,4 +15,9 @@
             <block type="core/template" name="stuntcoders.fb.purchase.pixel" after="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/purchase.phtml"/>
         </reference>
     </checkout_onepage_success>
+    <wishlist_index_index>
+        <reference name="head">
+            <block type="core/template" name="stuntcoders.fb.add.to.wishlist.pixel" after="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/add-to-wishlist.phtml"/>
+        </reference>
+    </wishlist_index_index>
 </layout>

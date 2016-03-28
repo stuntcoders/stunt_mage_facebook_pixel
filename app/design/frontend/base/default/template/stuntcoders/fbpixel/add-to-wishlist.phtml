@@ -1,0 +1,7 @@
+<?php if (Mage::helper('stuntcoders_fbpixel')->isEnabled() && Mage::getSingleton('customer/session')->getIsProductAddedToWishlist(true)): ?>
+    <!-- Facebook Pixel Add to Wishlist Code -->
+    <script>
+        fbq('track', 'AddToWishlist');
+    </script>
+    <!-- End Facebook Pixel Add to Wishlist Code -->
+<?php endif; ?>

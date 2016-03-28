@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+### ADDED:
+- Add to wishlist event
+
 ## 0.1.2 - 2016-03-15
 ### CHANGED:
 - Update readme file

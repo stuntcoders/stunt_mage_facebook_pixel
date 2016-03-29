@@ -1,0 +1,9 @@
+<?php if (Mage::helper('stuntcoders_fbpixel')->isEnabled() && Mage::registry('current_product')): ?>
+    <!-- Facebook Pixel View Content Code -->
+    <script>
+        fbq('track', 'ViewContent', {
+            content_name: '<?php echo Mage::helper('core')->jsQuoteEscape(Mage::registry('current_product')->getName()); ?>'
+        });
+    </script>
+    <!-- End Facebook Pixel View Content Code -->
+<?php endif; ?>

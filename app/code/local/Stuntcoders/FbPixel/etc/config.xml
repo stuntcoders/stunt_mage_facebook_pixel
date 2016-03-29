@@ -42,6 +42,14 @@
                     </stuntcoders_fbpixel>
                 </observers>
             </customer_register_success>
+            <checkout_cart_add_product_complete>
+                <observers>
+                    <stuntcoders_fbpixel>
+                        <class>stuntcoders_fbpixel/observer</class>
+                        <method>onAddToCart</method>
+                    </stuntcoders_fbpixel>
+                </observers>
+            </checkout_cart_add_product_complete>
         </events>
     </global>
     <frontend>

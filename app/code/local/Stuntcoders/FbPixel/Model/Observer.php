@@ -6,4 +6,9 @@ class Stuntcoders_FbPixel_Model_Observer
     {
         Mage::getSingleton('customer/session')->setIsProductAddedToWishlist(true);
     }
+
+    public function onCompleteRegistration()
+    {
+        Mage::getSingleton('customer/session')->setCompleteRegistration(true);
+    }
 }

@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 - Add to wishlist event
 - View content event
 - Initiate checkout event
+- Complete registration event
 
 ## 0.1.2 - 2016-03-15
 ### CHANGED:

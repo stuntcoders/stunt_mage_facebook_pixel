@@ -4,6 +4,9 @@
         <reference name="head">
             <block type="core/template" name="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/track.phtml"/>
         </reference>
+        <reference name="head">
+            <block type="core/template" name="stuntcoders.fb.complete.registration.pixel" after="stuntcoders.fb.pixel" template="stuntcoders/fbpixel/complete-registration.phtml"/>
+        </reference>
     </default>
     <catalogsearch_result_index>
         <reference name="head">

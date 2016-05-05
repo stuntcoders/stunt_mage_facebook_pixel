@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-## Unreleased
+## 0.2.0 - 2016-05-05
 ### ADDED:
 - Add to wishlist event
 - View content event

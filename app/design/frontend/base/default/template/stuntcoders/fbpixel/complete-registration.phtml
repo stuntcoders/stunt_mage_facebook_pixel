@@ -1,0 +1,7 @@
+<?php if (Mage::helper('stuntcoders_fbpixel')->isEnabled() && Mage::getSingleton('customer/session')->getCompleteRegistration(true)): ?>
+    <!-- Facebook Pixel Complete Registration Code -->
+    <script>
+        fbq('track', 'CompleteRegistration');
+    </script>
+    <!-- End Facebook Pixel Complete Registration Code -->
+<?php endif; ?>

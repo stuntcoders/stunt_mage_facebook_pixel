@@ -1,0 +1,9 @@
+<?php if (Mage::helper('stuntcoders_fbpixel')->isEnabled() && $productName = Mage::getSingleton('customer/session')->getAddedProductName(true)): ?>
+    <!-- Facebook Pixel Add to Cart Code -->
+    <script>
+        fbq('track', 'AddToCart', {
+            content_name: '<?php echo Mage::helper('core')->jsQuoteEscape($productName); ?>'
+        });
+    </script>
+    <!-- End Facebook Pixel Add to Cart Code -->
+<?php endif; ?>

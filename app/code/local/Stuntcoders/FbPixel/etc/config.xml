@@ -6,6 +6,15 @@
         </Stuntcoders_FbPixel>
     </modules>
     <global>
+        <models>
+            <stuntcoders_fbpixel>
+                <class>Stuntcoders_FbPixel_Model</class>
+                <resourceModel>stuntcoders_fbpixel_resource</resourceModel>
+            </stuntcoders_fbpixel>
+            <stuntcoders_fbpixel_resource>
+                <class>Stuntcoders_FbPixel_Model_Resource</class>
+            </stuntcoders_fbpixel_resource>
+        </models>
         <blocks>
             <stuntcoders_fbpixel>
                 <class>Stuntcoders_FbPixel_Block</class>
@@ -16,6 +25,32 @@
                 <class>Stuntcoders_FbPixel_Helper</class>
             </stuntcoders_fbpixel>
         </helpers>
+        <events>
+            <wishlist_add_product>
+                <observers>
+                    <stuntcoders_fbpixel>
+                        <class>stuntcoders_fbpixel/observer</class>
+                        <method>onAddToWishlist</method>
+                    </stuntcoders_fbpixel>
+                </observers>
+            </wishlist_add_product>
+            <customer_register_success>
+                <observers>
+                    <stuntcoders_fbpixel>
+                        <class>stuntcoders_fbpixel/observer</class>
+                        <method>onCompleteRegistration</method>
+                    </stuntcoders_fbpixel>
+                </observers>
+            </customer_register_success>
+            <checkout_cart_add_product_complete>
+                <observers>
+                    <stuntcoders_fbpixel>
+                        <class>stuntcoders_fbpixel/observer</class>
+                        <method>onAddToCart</method>
+                    </stuntcoders_fbpixel>
+                </observers>
+            </checkout_cart_add_product_complete>
+        </events>
     </global>
     <frontend>
         <layout>
